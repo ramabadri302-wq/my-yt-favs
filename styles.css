@@ -420,3 +420,34 @@ h1 {
     grid-template-columns: 160px 1fr;
   }
 }
+
+.channel-panel {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 14px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.channel-panel-thumb {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #111;
+  flex-shrink: 0;
+}
+
+.channel-panel-name {
+  margin: 0 0 4px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.channel-panel-hint {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
